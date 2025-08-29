@@ -1,0 +1,39 @@
+body{
+    background-color:#FFFFFF;
+}
+
+.sidebar {
+  height: calc(100vh - 60px); /* 100vh minus header height */
+  overflow-y: auto;
+  }
+
+  .mainScreen::-webkit-scrollbar {
+    display: none;
+  }
+  /* Scrollbar ko thin karna */
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Scrollbar track (background) */
+  .sidebar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Scrollbar handle (thumb) */
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+  }
+  
+  /* Hover pe color dark */
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+  
+  /* Show More button styling */
+  .show-more-btn:active {
+    font-size: medium;
+    background-color: #f3f4f6;
+  }
+  
